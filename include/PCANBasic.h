@@ -19,6 +19,14 @@
 #ifndef __PCANBASICH__
 #define __PCANBASICH__
 
+#include <windows.h>
+#ifdef __cplusplus
+extern "C" {
+#define _DEF_ARG =0
+#else
+#define _DEF_ARG
+#endif
+
 ////////////////////////////////////////////////////////////
 // Value definitions
 ////////////////////////////////////////////////////////////
@@ -364,12 +372,6 @@ typedef struct tagTPCANChannelInformation
     DWORD channel_condition;                    // Availability status of a PCAN-Channel          
 }TPCANChannelInformation;
 
-#ifdef __cplusplus
-extern "C" {
-#define _DEF_ARG =0
-#else
-#define _DEF_ARG
-#endif
 
 ////////////////////////////////////////////////////////////
 // PCAN-Basic API function declarations

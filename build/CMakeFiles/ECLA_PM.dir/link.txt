@@ -1,0 +1,3 @@
+C:\Users\danie\AppData\Local\Programs\Python\Python37\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\ECLA_PM.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\ECLA_PM.dir/objects.a @CMakeFiles\ECLA_PM.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ECLA_PM.dir/objects.a -Wl,--no-whole-archive -o ECLA_PM.exe -Wl,--out-implib,libECLA_PM.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ECLA_PM.dir\linkLibs.rsp

@@ -1,0 +1,10 @@
+^C:\REPOSITORIES\MEDIT-LIBS\PCANBASIC\BUILD\CMAKEFILES\1572DCA118D1AC0DA59D4A2C8F93CB38\GENERATE.STAMP.RULE
+setlocal
+C:\Users\danie\AppData\Local\Programs\Python\Python37\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Repositories/medit-libs/pcanbasic -BC:/Repositories/medit-libs/pcanbasic/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Repositories/medit-libs/pcanbasic/build/medit-libs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
