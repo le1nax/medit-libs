@@ -1,2 +1,0 @@
-C:/Repositories/medit-libs/pcanbasic/build/CMakeFiles/edit_cache.dir
-C:/Repositories/medit-libs/pcanbasic/build/CMakeFiles/rebuild_cache.dir

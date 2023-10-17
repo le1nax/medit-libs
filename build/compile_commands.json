@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Repositories/medit-libs/pcanbasic/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\ECLA_PM.dir\\main.cpp.obj -c C:\\Repositories\\medit-libs\\pcanbasic\\main.cpp",
-  "file": "C:/Repositories/medit-libs/pcanbasic/main.cpp",
-  "output": "CMakeFiles/ECLA_PM.dir/main.cpp.obj"
-}
-]
