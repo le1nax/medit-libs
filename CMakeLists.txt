@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.17)
 project(medit-libs CXX)  
 
 add_library(pcanbasic STATIC IMPORTED)
-set_target_properties pcanbasic  PROPERTIES
+set_target_properties(pcanbasic  PROPERTIES
     IMPORTED_LOCATION "${CMAKE_CURRENT_LIST_DIR}/lib/PCANBasic.lib"
 )
 
