@@ -1,7 +1,10 @@
+cmake_minimum_required(VERSION 3.26)
+project(medit-libs)  
+
 add_library(meditpcan STATIC IMPORTED)
-set_target_properties(meditpcan PROPERTIES
+set_target_properties((meditpcan  PROPERTIES
     IMPORTED_LOCATION "${CMAKE_CURRENT_LIST_DIR}/lib/PCANBasic.lib"
 )
 
-target_include_directories(meditpcan  INTERFACE "{CMAKE_CURRENT_LIST_DIR}/include")
+target_include_directories((meditpcan INTERFACE "{CMAKE_CURRENT_LIST_DIR}/include")
 
