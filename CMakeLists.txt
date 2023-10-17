@@ -8,3 +8,17 @@ set_target_properties(pcanbasic  PROPERTIES
 
 target_include_directories(pcanbasic INTERFACE "{CMAKE_CURRENT_LIST_DIR}/include")
 
+install(TARGETS (pcanbasic 
+    EXPORT pcanbasic-targets
+    ARCHIVE DESTINATION lib
+    INCLUDES DESTINATION include
+)
+install(EXPORT pcanbasic-targets
+    FILE pcanbasic-targets.cmake
+    NAMESPACE pcanbasic::
+    DESTINATION lib/cmake/pcanbasic 
+)
+install(FILES pcanbasic.h
+    DESTINATION include
+)
+
